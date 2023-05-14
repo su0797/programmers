@@ -15,3 +15,20 @@ def solution(n):
             count3 += 1
     return count3
 ```
+
+
+## 대소문자 바꿔서 출력하기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181949
+
+```python
+s = ''
+str = input()
+for i in str:
+    if i.islower():
+        s += i.upper()
+    else:
+        s += i.lower()
+
+print(s)
+```
