@@ -57,3 +57,14 @@ str1, str2 = input().strip().split(' ')
 str3 = list(map(str, (str1, str2)))
 print(''.join(str3))
 ```
+
+## 문자열 돌리기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181945
+
+```python
+str = input()
+a = list(str)
+
+for i in a :
+    print(i)
+```
