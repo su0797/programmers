@@ -81,3 +81,7 @@ if n % 2 == 0:
 else:
     print(f'{n} is odd')
 ```
+
+
+## 문자열 겹쳐쓰기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181943
