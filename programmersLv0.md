@@ -58,6 +58,7 @@ str3 = list(map(str, (str1, str2)))
 print(''.join(str3))
 ```
 
+
 ## 문자열 돌리기
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181945
 
@@ -67,4 +68,16 @@ a = list(str)
 
 for i in a :
     print(i)
+```
+
+
+## 홀짝 구분하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181944
+
+```python
+n = int(input())
+if n % 2 == 0:
+    print(f'{n} is even')
+else:
+    print(f'{n} is odd')
 ```
