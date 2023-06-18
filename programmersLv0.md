@@ -33,6 +33,7 @@ for i in str:
 print(s)
 ```
 
+
 ## 덧셈식 출력하기
 
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181947
@@ -41,4 +42,18 @@ print(s)
 a, b = map(int, input().strip().split(' '))
 c = a + b
 print(f'{a} + {b} = {c}')
+```
+
+
+## 문자열 붙여서 출력하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181946
+
+```python
+# 다시 푼 방법
+print(input().strip().replace(' ',''))
+
+# 처음 푼 방법
+str1, str2 = input().strip().split(' ')
+str3 = list(map(str, (str1, str2)))
+print(''.join(str3))
 ```
