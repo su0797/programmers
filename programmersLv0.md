@@ -85,3 +85,10 @@ else:
 
 ## 문자열 겹쳐쓰기
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181943
+
+```python
+# 슬라이싱을 바로 사용하기
+def solution(my_string, overwrite_string, s):
+    answer = my_string[:s] + overwrite_string + my_string[s + len(overwrite_string):]
+    return answer
+```
