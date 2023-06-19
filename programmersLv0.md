@@ -92,3 +92,14 @@ def solution(my_string, overwrite_string, s):
     answer = my_string[:s] + overwrite_string + my_string[s + len(overwrite_string):]
     return answer
 ```
+
+
+## 문자 리스트를 문자열로 변환하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181941
+
+```python
+def solution(arr):
+    answer = ''.join(arr)
+    return answer
+```
+
