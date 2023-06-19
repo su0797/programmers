@@ -132,3 +132,17 @@ def solution(a, b):
     answer = max(int((str(a) + str(b))), 2 * a * b)
     return answer
 ```
+
+
+## n 번째 원소까지
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181889
+
+```python
+def solution(num_list, n):
+    answer = num_list[:n]
+    return answer
+
+# 더 짧게 정리
+def solution(num_list, n):
+    return num_list[:n]
+```
