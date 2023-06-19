@@ -122,3 +122,13 @@ def solution(a, b):
 def solution(a, b):
     return int(max(f"{a}{b}", f"{b}{a}"))
 ```
+
+
+## 두 수의 연산값 비교하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181938
+
+```python
+def solution(a, b):
+    answer = max(int((str(a) + str(b))), 2 * a * b)
+    return answer
+```
