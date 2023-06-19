@@ -103,3 +103,22 @@ def solution(arr):
     return answer
 ```
 
+
+## 더 크게 합치기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181939
+
+```python
+# 내가 푼 코드
+def solution(a, b):
+    str1 = str(a) + str(b)
+    str2 = str(b) + str(a)
+    if int(str1) > int( str2) or int(str1) == int(str2):
+        answer = int(str1)
+    elif int(str1) < int(str2):
+        answer = int(str2)
+    return answer
+
+# 짧게 정리한 코드
+def solution(a, b):
+    return int(max(f"{a}{b}", f"{b}{a}"))
+```
