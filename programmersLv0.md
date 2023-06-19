@@ -159,3 +159,21 @@ def solution(num_list, n):
 def solution(num_list, n):
     return num_list[::n]
 ```
+
+
+## 부분 문자열
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181842
+
+```python
+def solution(str1, str2):
+    answer = 0
+    if str1 in str2 :
+        answer += 1
+    else :
+        answer = 0
+    return answer
+
+# 한줄로 if문
+def solution(str1, str2):
+    return 1 if str1 in str2 else 0
+```
