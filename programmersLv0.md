@@ -177,3 +177,19 @@ def solution(str1, str2):
 def solution(str1, str2):
     return 1 if str1 in str2 else 0
 ```
+
+
+## 카운트 다운
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181899
+
+```python
+def solution(start, end):
+    answer = []
+    for i in range(start, end-1, -1):
+        answer.append(i)
+    return answer
+
+# 한줄로 for문
+def solution(start, end):
+    return [ i for i in range(start, end-1, -1)]
+```
