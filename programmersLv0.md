@@ -243,10 +243,5 @@ def solution(ineq, eq, n, m):
 
 ```python
 def solution(a, b, flag):
-    answer = 0
-    if flag == 'true':
-        answer = a + b
-    else:
-        answer = a - b
-    return answer
+    return a + b if flag else a -b 
 ```
