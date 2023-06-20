@@ -202,3 +202,19 @@ def solution(start, end):
 def solution(number, n, m):
     return 1 if number % n == 0 and number % m == 0 else 0
 ```
+
+
+## 홀짝에 따라 다른 값 반환하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181935
+
+```python
+def solution(n):
+    answer = 0
+    if n % 2 == 1:
+        for i in range(1,n+1,2):
+            answer += i
+    else:
+        for i in range(2,n+1,2):
+            answer += i**2
+    return answer
+```
