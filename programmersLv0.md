@@ -218,3 +218,21 @@ def solution(n):
             answer += i**2
     return answer
 ```
+
+
+## 조건 문자열
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181934
+
+```python
+def solution(ineq, eq, n, m):
+    answer = 0
+    if (ineq, eq) == ('>', '='):
+        answer = 1 if n >= m else 0
+    elif (ineq, eq) == ('>', '!'):
+        answer = 1 if n > m else 0
+    elif (ineq, eq) == ('<', '='):
+        answer = 1 if n <= m else 0
+    elif (ineq, eq) == ('<', '!'):
+        answer =1 if n < m else 0
+    return answer
+```
