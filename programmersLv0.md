@@ -236,3 +236,17 @@ def solution(ineq, eq, n, m):
         answer =1 if n < m else 0
     return answer
 ```
+
+
+## flag에 따라 다른 값 반환하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181933
+
+```python
+def solution(a, b, flag):
+    answer = 0
+    if flag == 'true':
+        answer = a + b
+    else:
+        answer = a - b
+    return answer
+```
