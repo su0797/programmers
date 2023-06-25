@@ -245,3 +245,11 @@ def solution(ineq, eq, n, m):
 def solution(a, b, flag):
     return a + b if flag else a -b 
 ```
+
+
+## 코드 처리하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181932
+
+```python
+# 다시 풀어보기
+```
