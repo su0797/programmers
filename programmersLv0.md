@@ -247,6 +247,14 @@ def solution(a, b, flag):
 ```
 
 
+## 코드 처리하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181932
+
+```python
+# 다시 풀어보기
+```
+
+
 ## 이어 붙인 수
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181928
 
@@ -264,9 +272,3 @@ def solution(num_list):
     return answer
 ```
 
-## 코드 처리하기
-- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181932
-
-```python
-# 다시 풀어보기
-```
