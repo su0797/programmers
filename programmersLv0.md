@@ -247,6 +247,23 @@ def solution(a, b, flag):
 ```
 
 
+## 이어 붙인 수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181928
+
+```python
+def solution(num_list):
+    a = '' # 짝수
+    b = '' # 홀수
+    answer = 0
+    for i in num_list:
+        if i % 2 == 0:
+            a += str(i)
+        else:
+            b += str(i)
+    answer = int(a) + int(b)
+    return answer
+```
+
 ## 코드 처리하기
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181932
 
