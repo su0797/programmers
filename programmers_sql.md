@@ -76,3 +76,22 @@ SELECT
 FROM USER_INFO
 WHERE ISNULL(AGE);
 ```
+
+
+## 가장 비싼 상품 구하기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/131697
+
+```sql
+- 내가 푼 방법
+SELECT 
+    PRICE AS MAX_PRICE
+FROM PRODUCT
+ORDER BY PRICE DESC
+LIMIT 1;
+
+- 다른 방법
+SELECT 
+    MAX(PRICE) AS MAX_PRICE
+FROM PRODUCT;
+```
