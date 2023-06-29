@@ -64,3 +64,15 @@ SELECT
 FROM ANIMAL_INS
 WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty');
 ```
+
+
+## 나이 정보가 없는 회원 수 구하기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/131528
+
+```sql
+SELECT
+    COUNT(GENDER) AS USERS
+FROM USER_INFO
+WHERE ISNULL(AGE);
+```
