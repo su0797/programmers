@@ -83,15 +83,26 @@ WHERE ISNULL(AGE);
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/131697
 
 ```sql
-- 내가 푼 방법
+# 내가 푼 방법
 SELECT 
     PRICE AS MAX_PRICE
 FROM PRODUCT
 ORDER BY PRICE DESC
 LIMIT 1;
 
-- 다른 방법
+# 다른 방법
 SELECT 
     MAX(PRICE) AS MAX_PRICE
 FROM PRODUCT;
+```
+
+
+## 최솟값 구하기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/59038
+
+```sql
+SELECT 
+    MIN(DATETIME) AS TIME
+FROM ANIMAL_INS;
 ```
