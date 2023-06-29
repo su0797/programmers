@@ -128,3 +128,18 @@ SELECT
     COUNT(DISTINCT NAME) AS count
 FROM ANIMAL_INS;
 ```
+
+
+## 재구매가 일어난 상품과 회원 리스트 구하기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/131536
+
+```sql
+SELECT 
+    USER_ID, 
+    PRODUCT_ID
+FROM ONLINE_SALE  
+GROUP BY USER_ID, PRODUCT_ID
+HAVING count(PRODUCT_ID) >= 2
+ORDER BY USER_ID ASC, PRODUCT_ID DESC;
+```
