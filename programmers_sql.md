@@ -169,3 +169,15 @@ FROM FIRST_HALF
 ORDER BY TOTAL_ORDER DESC, SHIPMENT_ID ASC;
 ```
 
+
+## 상위 n개 레코드
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/59405
+
+```sql
+SELECT 
+    NAME
+FROM ANIMAL_INS
+ORDER BY DATETIME ASC
+LIMIT 1;
+```
