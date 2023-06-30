@@ -143,3 +143,29 @@ GROUP BY USER_ID, PRODUCT_ID
 HAVING count(PRODUCT_ID) >= 2
 ORDER BY USER_ID ASC, PRODUCT_ID DESC;
 ```
+
+
+## 어린 동물 찾기
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/59037#fn1
+
+```sql
+SELECT 
+    ANIMAL_ID,
+    NAME
+FROM ANIMAL_INS
+WHERE INTAKE_CONDITION != 'Aged'
+GROUP BY ANIMAL_ID;
+```
+
+
+## 인기있는 아이스크림
+
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/133024
+
+```sql
+SELECT FLAVOR
+FROM FIRST_HALF
+ORDER BY TOTAL_ORDER DESC, SHIPMENT_ID ASC;
+```
+
