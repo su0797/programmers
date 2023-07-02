@@ -272,3 +272,18 @@ def solution(num_list):
     return answer
 ```
 
+
+## 원소들의 곱과 합
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181929
+
+```python
+def solution(num_list):
+    x = 1
+    y = 0
+    answer = 0
+    for i in num_list:
+        x *= i
+        y += i
+    answer = 0 if x > y**2 else 1 
+    return answer
+```
