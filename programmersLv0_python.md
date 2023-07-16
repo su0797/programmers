@@ -287,3 +287,19 @@ def solution(num_list):
     answer = 0 if x > y**2 else 1 
     return answer
 ```
+
+
+## 주사위 게임 2
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181930
+
+```python
+def solution(a, b, c):
+    answer = 0
+    if a == b and a == c:
+        answer = (a + b + c) * (a**2 + b**2 + c**2) * (a**3 + b**3 + c**3)
+    elif a == b or b == c or a == c:
+        answer = (a + b + c) * (a**2 + b**2 + c**2)
+    else:
+        answer = a + b + c
+    return answer
+```
