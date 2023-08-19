@@ -329,3 +329,18 @@ def solution(n, control):
         n += str_list[i]
     return n
 ```
+
+
+## 수 조작하기 2
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181925
+```python
+def solution(numLog):
+    answer = ''
+    dic = { 1: "w", -1: "s", 10: "d", -10: "a" }
+    
+    for i, val in enumerate(numLog):
+        if i != len(numLog)-1: 
+            answer += dic[numLog[i+1] - numLog[i]]
+    
+    return answer
+```
