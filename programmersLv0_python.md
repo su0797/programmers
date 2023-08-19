@@ -306,7 +306,7 @@ def solution(a, b, c):
 
 
 ## 마지막 두 원소 (두 수가 같은 경우도 생각하기)
-- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181927#
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181927
 ```python
 def solution(num_list):
     if num_list[-1] > num_list[-2]:
@@ -316,4 +316,16 @@ def solution(num_list):
         a = num_list[-1]*2
         num_list.append(a)
     return num_list
+```
+
+
+## 수 조작하기 1
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181926
+```python
+str_list = { "w" : 1, "s" : -1, "d" : 10, "a" : -10 }
+
+def solution(n, control):
+    for i in control:
+        n += str_list[i]
+    return n
 ```
