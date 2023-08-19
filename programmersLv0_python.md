@@ -1,4 +1,4 @@
-# 프로그래머스 Lv0 코딩테스트 문제풀이
+# 프로그래머스 Python 코딩테스트 문제풀이
 
 ## 저주의 숫자 3
 
@@ -302,4 +302,18 @@ def solution(a, b, c):
     else:
         answer = a + b + c
     return answer
+```
+
+
+## 마지막 두 원소 (두 수가 같은 경우도 생각하기)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181927#
+```python
+def solution(num_list):
+    if num_list[-1] > num_list[-2]:
+        a = num_list[-1] - num_list[-2]
+        num_list.append(a)
+    elif  num_list[-1] < num_list[-2] or num_list[-1] == num_list[-2]:
+        a = num_list[-1]*2
+        num_list.append(a)
+    return num_list
 ```
