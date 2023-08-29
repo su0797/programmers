@@ -344,3 +344,15 @@ def solution(numLog):
     
     return answer
 ```
+
+
+## 배열 두배 만들기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120809
+```python
+def solution(numbers):
+    answer = []
+    for n in numbers:
+        a = n * 2
+        answer.append(a)
+    return answer
+```
