@@ -356,3 +356,13 @@ def solution(numbers):
         answer.append(a)
     return answer
 ```
+
+
+## 중앙값 구하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120811
+```python
+def solution(array):
+    answer = 0
+    array.sort()
+    return array[len(array) // 2]
+```
