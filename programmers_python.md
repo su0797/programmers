@@ -366,3 +366,21 @@ def solution(array):
     array.sort()
     return array[len(array) // 2]
 ```
+
+
+## 최빈값 구하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120812
+```python
+from collections import Counter
+
+def solution(array):
+    answer = Counter(array)
+    if len(answer) == 1:
+        return list(answer.keys())[0]
+    
+    common = answer.most_common(2)
+    if common[0][1] == common[1][1]:
+        return -1
+    else:
+        return common[0][0]
+```
