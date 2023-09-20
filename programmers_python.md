@@ -404,3 +404,9 @@ def solution(a, d, included):
 def solution(a, d, included):
     return sum((a + i * d) for i, is_included in enumerate(included) if is_included)
 ```
+
+
+## 수열과 구간 쿼리 3
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181924
+```python
+```
