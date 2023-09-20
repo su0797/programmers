@@ -384,3 +384,23 @@ def solution(array):
     else:
         return common[0][0]
 ```
+
+
+## 등차수열의 특정한 항만 더하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181931
+```python
+def solution(a, d, included):
+    n = len(included)  
+    result = 0 
+
+    for i in range(n):
+        if included[i]:  
+            result += a + (i * d)  
+
+    return result
+```
+또는 
+```python
+def solution(a, d, included):
+    return sum((a + i * d) for i, is_included in enumerate(included) if is_included)
+```
