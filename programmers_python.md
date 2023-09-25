@@ -410,3 +410,14 @@ def solution(a, d, included):
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181924
 ```python
 ```
+
+
+## 짝수는 싫어요
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120813
+```python
+def solution(n):
+    answer = []
+    for i in range(1, n + 1, 2):
+        answer.append(i)
+    return answer
+```
