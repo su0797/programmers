@@ -421,3 +421,15 @@ def solution(n):
         answer.append(i)
     return answer
 ```
+
+
+## 수열과 구간 쿼리 3
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181924
+```python
+def solution(arr, queries):
+    for query in queries:
+        i, j = query
+        arr[i], arr[j] = arr[j], arr[i]
+
+    return arr
+```
