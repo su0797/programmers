@@ -433,3 +433,23 @@ def solution(arr, queries):
 
     return arr
 ```
+
+
+## 수열과 쿠간 쿼리 2
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181923
+```python
+def solution(arr, queries):
+    answer = []
+    
+    for query in queries:
+        s, e, k = query
+        sub_arr = arr[s:e+1] 
+        filtered_values = [value for value in sub_arr if value > k]
+        
+        if filtered_values: 
+            answer.append(min(filtered_values))
+        else:
+            answer.append(-1)
+
+    return answer
+```
