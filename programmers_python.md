@@ -483,3 +483,12 @@ def solution(l, r):
 
     return answer if answer else [-1]
 ```
+
+
+## 카운트 업
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181920
+```python
+def solution(start_num, end_num):
+    answer = list(range(start_num, end_num + 1))
+    return answer
+```
