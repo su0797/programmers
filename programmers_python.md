@@ -469,3 +469,17 @@ def solution(arr, queries):
     
     return arr
 ```
+
+
+## 배열 만들기 2
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181921
+```python
+def solution(l, r):
+    answer = []
+
+    for num in range(l, r + 1):
+        if set(str(num)) <= {'0', '5'}:
+            answer.append(num)
+
+    return answer if answer else [-1]
+```
