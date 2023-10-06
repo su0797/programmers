@@ -509,3 +509,21 @@ def solution(n):
 
     return answer
 ```
+
+
+## 배열 만들기 4
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181918
+```python
+def solution(arr):
+    stk = []
+    i = 0
+    
+    while i < len(arr):
+        if not stk or stk[-1] < arr[i]:
+            stk.append(arr[i])
+            i += 1
+        elif stk[-1] >= arr[i]:
+            stk.pop()
+
+    return stk
+```
