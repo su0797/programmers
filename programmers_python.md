@@ -551,3 +551,13 @@ def solution(my_string, index_list):
     answer = ''.join(my_string[i] for i in index_list)
     return answer
 ```
+
+
+## 9로 나눈 나머지
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181914
+```python
+def solution(number):
+    digit_sum = sum(int(digit) for digit in number)
+    answer = digit_sum % 9
+    return answer
+```
