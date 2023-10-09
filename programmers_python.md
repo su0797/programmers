@@ -561,3 +561,17 @@ def solution(number):
     answer = digit_sum % 9
     return answer
 ```
+
+
+## 문자열 여러 번 뒤집기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181913
+```python
+def solution(my_string, queries):
+    for query in queries:
+        start, end = query
+        my_string = list(my_string)
+        my_string[start:end + 1] = my_string[start:end + 1][::-1]
+        my_string = ''.join(my_string)
+    
+    return my_string
+```
