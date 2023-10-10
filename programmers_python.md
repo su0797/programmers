@@ -630,3 +630,11 @@ def solution(my_string, n):
     answer = my_string[-n:]
     return answer
 ```
+
+
+## 접미사 배열
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181909
+```python
+def solution(my_string):
+    return sorted(my_string[i:] for i in range(len(my_string)))
+```
