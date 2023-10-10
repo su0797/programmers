@@ -621,3 +621,12 @@ def solution(my_strings, parts):
     
     return answer
 ```
+
+
+## 문자열의 뒤의 n글자
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181910
+```python
+def solution(my_string, n):
+    answer = my_string[-n:]
+    return answer
+```
