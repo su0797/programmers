@@ -608,3 +608,16 @@ def solution(intStrs, k, s, l):
 
     return answer
 ```
+
+
+## 부분 문자열 이어 붙여 문자열 만들기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181911
+```python
+def solution(my_strings, parts):
+    answer = ''
+    
+    for idx, val in enumerate(parts):
+        answer += my_strings[idx][val[0]:val[1]+1]
+    
+    return answer
+```
