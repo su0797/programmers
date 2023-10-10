@@ -592,3 +592,19 @@ def solution(my_string, queries):
     
     return my_string
 ```
+
+
+## 배열 만들기 5
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181912
+```python
+def solution(intStrs, k, s, l):
+    answer = []
+
+    for intStr in intStrs:
+        substring = intStr[s:s + l]
+        num = int(substring)
+        if num > k:
+            answer.append(num)
+
+    return answer
+```
