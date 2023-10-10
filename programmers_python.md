@@ -638,3 +638,14 @@ def solution(my_string, n):
 def solution(my_string):
     return sorted(my_string[i:] for i in range(len(my_string)))
 ```
+
+
+## 접미사인지 확인하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181908
+```python
+def solution(my_string, is_suffix):
+    if my_string.endswith(is_suffix):
+        return 1
+    else:
+        return 0
+```
