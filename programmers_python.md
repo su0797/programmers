@@ -649,3 +649,12 @@ def solution(my_string, is_suffix):
     else:
         return 0
 ```
+
+
+## 문자열의 앞의 n글자
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181907
+```python
+def solution(my_string, n):
+    answer = my_string[:n]
+    return answer
+```
