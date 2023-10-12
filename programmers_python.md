@@ -658,3 +658,15 @@ def solution(my_string, n):
     answer = my_string[:n]
     return answer
 ```
+
+
+## 접두사인지 확인하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181906
+```python
+def solution(my_string, is_prefix):
+    if my_string.startswith(is_prefix):
+        answer = 1
+    else:
+        answer = 0
+    return answer
+```
