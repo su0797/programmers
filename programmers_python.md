@@ -670,3 +670,14 @@ def solution(my_string, is_prefix):
         answer = 0
     return answer
 ```
+
+
+## 문자열 뒤집기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181905
+```python
+def solution(my_string, s, e):
+    substr_to_reverse = my_string[s:e+1]
+    reversed_substr = substr_to_reverse[::-1]
+    answer = my_string[:s] + reversed_substr + my_string[e+1:]
+    return answer
+```
