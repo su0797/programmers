@@ -681,3 +681,14 @@ def solution(my_string, s, e):
     answer = my_string[:s] + reversed_substr + my_string[e+1:]
     return answer
 ```
+
+
+## 세로 읽기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181904
+```python
+def solution(my_string, m, c):
+    result = ''
+    for i in range(c-1, len(my_string), m):
+        result += my_string[i]
+    return result
+```
