@@ -701,3 +701,12 @@ def solution(n):
     answer = (n - 1) // 7 + 1
     return answer
 ```
+
+
+## qr code
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181903
+```python
+def solution(q, r, code):
+    answer = ''.join(code[i] for i in range(len(code)) if i % q == r)
+    return answer
+```
