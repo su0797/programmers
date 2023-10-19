@@ -710,3 +710,9 @@ def solution(q, r, code):
     answer = ''.join(code[i] for i in range(len(code)) if i % q == r)
     return answer
 ```
+
+
+## 피자 나눠먹기(2)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120815
+```python
+```
