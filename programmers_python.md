@@ -716,3 +716,12 @@ def solution(q, r, code):
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120815
 ```python
 ```
+
+
+## 배열의 평균값
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120817
+```python
+def solution(numbers):
+    average = sum(numbers) / len(numbers)
+    return average
+```
