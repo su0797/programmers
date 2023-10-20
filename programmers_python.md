@@ -725,3 +725,21 @@ def solution(numbers):
     average = sum(numbers) / len(numbers)
     return average
 ```
+
+
+## 옷가게 할인받기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120818
+```python
+def solution(price):
+    discount_rate = 0  
+    if price >= 500000:
+        discount_rate = 0.2
+    elif price >= 300000:
+        discount_rate = 0.1
+    elif price >= 100000:
+        discount_rate = 0.05
+
+    discounted_price = price - (price * discount_rate)
+
+    return int(discounted_price)
+```
