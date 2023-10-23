@@ -743,3 +743,6 @@ def solution(price):
 
     return int(discounted_price)
 ```
+
+
+## 아이스 아메리카노
