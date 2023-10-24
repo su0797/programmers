@@ -746,3 +746,10 @@ def solution(price):
 
 
 ## 아이스 아메리카노
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120819
+```python
+def solution(money):
+    price_per_coffee = 5500  
+    answer = [money // price_per_coffee , money % price_per_coffee ]
+    return answer
+```
