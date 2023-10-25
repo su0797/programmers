@@ -753,3 +753,12 @@ def solution(money):
     answer = [money // price_per_coffee , money % price_per_coffee ]
     return answer
 ```
+
+
+## 배열 뒤집기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120821
+```python
+def solution(num_list):
+    answer = num_list[::-1]
+    return answer
+```
