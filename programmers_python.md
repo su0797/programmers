@@ -712,9 +712,15 @@ def solution(q, r, code):
 ```
 
 
-## 피자 나눠먹기(2), (3) -> 다시 풀어보기
+## 피자 나눠먹기(2)
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120815
 ```python
+def solution(n):
+    for i in range(6,606,6):
+        if i%n == 0:
+            answer = i/6
+            break
+    return answer
 ```
 
 
@@ -762,3 +768,6 @@ def solution(num_list):
     answer = num_list[::-1]
     return answer
 ```
+
+
+## 
