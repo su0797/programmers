@@ -724,6 +724,15 @@ def solution(n):
 ```
 
 
+## 피자 나눠먹기(3)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120816
+```python
+def solution(slice, n):
+    answer=n//slice if n%slice==0 else n//slice+1
+    return answer
+```
+
+
 ## 배열의 평균값
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120817
 ```python
