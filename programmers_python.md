@@ -779,4 +779,16 @@ def solution(num_list):
 ```
 
 
+## 짝수와 홀수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12937
+```python
+def solution(num):
+    if num % 2 == 1:
+        answer = 'Odd'
+    else:
+        answer = 'Even'
+    return answer
+```
+
+
 ## 
