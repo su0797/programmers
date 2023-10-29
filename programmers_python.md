@@ -798,3 +798,9 @@ n = int(input())
 for i in range(1,n+1):
     print('*'*i)
 ```
+
+
+## 문자열 뒤집기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120822
+```python
+```
