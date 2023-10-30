@@ -846,3 +846,15 @@ def solution(my_string, letter):
 def solution(n, k):
     return n*12000 + k*2000 - (n//10)*2000
 ```
+
+
+## 짝수의 합
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120831
+```python
+def solution(n):
+    answer = 0
+    for i in range(n+1):
+        if i % 2 == 0:
+            answer += i
+    return answer
+```
