@@ -822,3 +822,11 @@ def solution(num_list):
     answer = [even, odd]
     return answer
 ```
+
+
+## 문자 반복 출력하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120825
+```python
+def solution(my_string, n):
+    return ''.join(i * n for i in my_string)
+```
