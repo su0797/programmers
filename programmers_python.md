@@ -830,3 +830,11 @@ def solution(num_list):
 def solution(my_string, n):
     return ''.join(i * n for i in my_string)
 ```
+
+
+## 특정 문자 제거하기
+- 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120826
+```python
+def solution(my_string, letter):
+    return my_string.replace(letter,'')
+```
