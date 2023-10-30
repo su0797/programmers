@@ -838,3 +838,11 @@ def solution(my_string, n):
 def solution(my_string, letter):
     return my_string.replace(letter,'')
 ```
+
+
+## 양꼬치
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12083
+```python
+def solution(n, k):
+    return n*12000 + k*2000 - (n//10)*2000
+```
