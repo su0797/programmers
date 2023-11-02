@@ -858,3 +858,12 @@ def solution(n):
             answer += i
     return answer
 ```
+
+
+## 배열 자르기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120833
+```python
+def solution(numbers, num1, num2):
+    answer = numbers[num1:num2+1]
+    return answer
+```
