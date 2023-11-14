@@ -908,3 +908,11 @@ def solution(n):
             answer += 1
     return answer
 ```
+
+
+## 개미 군단
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120837
+```python
+def solution(hp):
+    return (hp // 5) + ((hp % 5) // 3) + ((hp % 5) % 3)
+```
