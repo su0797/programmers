@@ -916,3 +916,25 @@ def solution(n):
 def solution(hp):
     return (hp // 5) + ((hp % 5) // 3) + ((hp % 5) % 3)
 ```
+
+
+## 모스 부호(1)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120838
+```python
+def solution(letter):
+    answer = ''
+
+    morse = { 
+        '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',
+        '--.':'g','....':'h','..':'i','.---':'j','-.-':'k','.-..':'l',
+        '--':'m','-.':'n','---':'o','.--.':'p','--.-':'q','.-.':'r',
+        '...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x',
+        '-.--':'y','--..':'z'
+    }   
+
+    letter_ls = letter.split()
+    for l in letter_ls:
+        answer += morse[l]
+
+    return answer
+```
