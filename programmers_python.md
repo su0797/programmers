@@ -954,3 +954,16 @@ def solution(rsp):
             answer += '2'
     return answer
 ```
+
+
+## 구슬을 나누는 경우의 수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120840
+```python
+from math import factorial
+
+def solution(balls, share): 
+    n = factorial(balls)
+    m = factorial(share)
+    nm = factorial(balls - share) * m
+    return n / nm
+```
