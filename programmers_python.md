@@ -967,3 +967,18 @@ def solution(balls, share):
     nm = factorial(balls - share) * m
     return n / nm
 ```
+
+
+## 점의 위치 구하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120841
+```python
+def solution(dot):
+    if dot[0] > 0:
+        if dot[1] > 0:
+            return 1
+        return 4
+    else:
+        if dot[1] > 0:
+            return 2
+        return 3
+```
