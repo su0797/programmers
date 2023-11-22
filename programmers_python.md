@@ -993,3 +993,8 @@ def solution(num_list, n):
         answer.append(num_list[i:i+n])
     return answer
 ```
+
+## 공 던지기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120843
+```python
+```
