@@ -1000,3 +1000,18 @@ def solution(num_list, n):
 def solution(numbers, k):
     return numbers[2 * (k - 1) % len(numbers)]
 ```
+
+
+## 배열 회전시키기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120844
+```python
+from collections import deque
+
+def solution(numbers, direction):
+    numbers = deque(numbers)
+    if direction == 'right':
+        numbers.rotate(1)
+    else:
+        numbers.rotate(-1)
+    return list(numbers)
+```
