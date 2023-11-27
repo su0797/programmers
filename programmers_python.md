@@ -1052,3 +1052,16 @@ def solution(numbers):
     numbers.sort()
     return numbers[-1] * numbers[-2]
 ```
+
+
+## 팩토리얼
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120848
+```python
+from math import factorial
+
+def solution(n):
+    answer = 10
+    while n < factorial(answer):
+        answer -= 1
+    return answer
+```
