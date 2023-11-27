@@ -1015,3 +1015,15 @@ def solution(numbers, direction):
         numbers.rotate(-1)
     return list(numbers)
 ```
+
+
+## 주사위의 개수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120845
+```python
+def solution(box, n):
+    a = box[0] // n
+    b = box[1] // n
+    c = box[2] // n
+    answer = a * b * c
+    return answer
+```
