@@ -1065,3 +1065,9 @@ def solution(n):
         answer -= 1
     return answer
 ```
+
+
+## 모음 제거
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120849
+```python
+```
