@@ -1070,4 +1070,9 @@ def solution(n):
 ## 모음 제거
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120849
 ```python
+def solution(my_string):
+    vowels = ['a','e','i','o','u']
+    for vowel in vowels:
+        my_string = my_string.replace(vowel, '')
+    return my_string
 ```
