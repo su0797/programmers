@@ -1076,3 +1076,16 @@ def solution(my_string):
         my_string = my_string.replace(vowel, '')
     return my_string
 ```
+
+
+## 문자열 정렬하기(1)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120850
+```python
+def solution(my_string):
+    answer = []
+    for i in my_string:
+        if i.isdigit():
+            answer.append(int(i))
+    answer.sort()
+    return answer
+```
