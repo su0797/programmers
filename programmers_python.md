@@ -1089,3 +1089,20 @@ def solution(my_string):
     answer.sort()
     return answer
 ```
+
+
+## 소인수분해
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120852
+```python
+def solution(n):
+    answer = []
+    divide = 2
+    while divide <= n:
+        if n % divide == 0:
+            if divide not in answer:
+                answer.append(divide)
+            n //= divide
+        else:
+            divide += 1
+    return answer
+```
