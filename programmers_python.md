@@ -34,6 +34,20 @@ print(s)
 ```
 
 
+## 컨트롤 제트
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120853
+```python
+def solution(s):
+    answer = []
+    for num in s.split(' '):
+        try:
+            answer.append(int(num))
+        except:
+            answer.pop()
+    return sum(answer)
+```
+
+
 ## 덧셈식 출력하기
 
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181947
