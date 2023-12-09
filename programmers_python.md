@@ -1120,3 +1120,14 @@ def solution(n):
             divide += 1
     return answer
 ```
+
+
+## 배열 원소의 길이
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120854
+```python
+def solution(strlist):
+    answer = []
+    for word in strlist:
+        answer.append(len(word))
+    return answer
+```
