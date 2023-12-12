@@ -1143,3 +1143,12 @@ def solution(my_string):
             answer+=i
     return answer
 ```
+
+
+## 삼각형의 완성 조건(1)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120889
+```python
+def solution(sides):
+    sides.sort()
+    return 1 if sides[0]+sides[1]>sides[2] else 2
+```
