@@ -1152,3 +1152,17 @@ def solution(sides):
     sides.sort()
     return 1 if sides[0]+sides[1]>sides[2] else 2
 ```
+
+
+## 가까운 수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120890
+```python
+def solution(array, n):
+    array.sort()
+    temp = []
+
+    for i in array :
+        temp.append( abs(n-i) )
+
+    return array[temp.index(min(temp))]
+```
