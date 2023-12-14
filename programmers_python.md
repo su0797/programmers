@@ -1166,3 +1166,15 @@ def solution(array, n):
 
     return array[temp.index(min(temp))]
 ```
+
+
+## 369게임
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120891
+```python
+def solution(order):
+    answer = 0
+    for i in str(order):
+        if i in ["3", "6", "9"]:
+            answer += 1
+    return answer
+```
