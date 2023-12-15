@@ -1178,3 +1178,11 @@ def solution(order):
             answer += 1
     return answer
 ```
+
+
+## 암호해독
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120892
+```python
+def solution(cipher, code):
+    return ''.join(x for i, x in enumerate(cipher, 1) if i % code == 0)
+```
