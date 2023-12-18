@@ -1186,3 +1186,11 @@ def solution(order):
 def solution(cipher, code):
     return ''.join(x for i, x in enumerate(cipher, 1) if i % code == 0)
 ```
+
+
+## 대문자와 소문자
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120893
+```python
+def solution(my_string):
+    return my_string.swapcase()
+```
