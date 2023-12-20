@@ -1239,3 +1239,11 @@ def solution(n):
     answer = [i for i in range(1, n+1) if n % i == 0]
     return answer
 ```
+
+
+## 편지
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120898
+```python
+def solution(message):
+    return len(message)*2
+```
