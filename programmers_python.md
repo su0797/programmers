@@ -1216,3 +1216,17 @@ def solution(my_string, num1, num2):
     my_string[num1],my_string[num2] = my_string[num2],my_string[num1]
     return ''.join(my_string)
 ```
+
+
+## 한 번만 등장한 문자
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120896
+```python
+def solution(s):
+    answer = ''
+    for i in s:
+        if s.count(i) == 1:
+            answer += i
+    answer = ''.join(sorted(answer))
+
+    return answer
+```
