@@ -1247,3 +1247,11 @@ def solution(n):
 def solution(message):
     return len(message)*2
 ```
+
+
+## 가장 큰 수 찾기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120899
+```python
+def solution(array):
+    return [max(array), array.index(max(array))]
+```
