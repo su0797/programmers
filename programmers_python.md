@@ -1263,3 +1263,18 @@ def solution(array):
 def solution(my_string):
     return eval(my_string)
 ```
+
+
+## 배열의 유사도
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120903
+```python
+def solution(s1, s2):
+    answer = 0
+
+    for i in s1:
+        for j in s2:
+            if i == j:
+                answer += 1
+
+    return answer
+```
