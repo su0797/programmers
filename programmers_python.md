@@ -1278,3 +1278,14 @@ def solution(s1, s2):
 
     return answer
 ```
+
+
+## 숫자 찾기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120904
+```python
+def solution(num, k):
+    answer = (str(num).find(str(k))+1)
+    if answer == 0:
+        answer = -1
+    return answer
+```
