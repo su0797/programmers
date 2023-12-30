@@ -1289,3 +1289,12 @@ def solution(num, k):
         answer = -1
     return answer
 ```
+
+
+## n의 배수 고르기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120905
+```python
+def solution(n, numlist):
+    answer = [i for i in numlist if i%n==0]
+    return answer
+```
