@@ -1298,3 +1298,11 @@ def solution(n, numlist):
     answer = [i for i in numlist if i%n==0]
     return answer
 ```
+
+
+## 자릿수 더하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120906
+```python
+def solution(n):
+    return sum(int(i) for i in str(n))
+```
