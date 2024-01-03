@@ -1306,3 +1306,18 @@ def solution(n, numlist):
 def solution(n):
     return sum(int(i) for i in str(n))
 ```
+
+
+## OX퀴즈
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120907
+```python
+def solution(quiz):
+    answer = []
+    for q in quiz:
+        p, a = q.split("=")
+        if eval(p) == int(a):
+            answer.append("O")
+        else:
+            answer.append("X")
+    return answer
+```
