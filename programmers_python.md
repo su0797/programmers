@@ -1337,3 +1337,11 @@ def solution(str1, str2):
 def solution(n):
     return 1 if (n ** 0.5) % 1 == 0 else 2
 ```
+
+
+## 세균 증식
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120910
+```python
+def solution(n, t):
+    return n*(2**t)
+```
