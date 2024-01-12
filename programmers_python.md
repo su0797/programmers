@@ -1345,3 +1345,14 @@ def solution(n):
 def solution(n, t):
     return n*(2**t)
 ```
+
+
+## 문자열 정렬하기 (2)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120911
+```python
+def solution(my_string):
+    answer = ''
+    for i in my_string:
+        answer += i.lower()
+    return ''.join(sorted(answer))
+```
