@@ -1356,3 +1356,11 @@ def solution(my_string):
         answer += i.lower()
     return ''.join(sorted(answer))
 ```
+
+
+## 7의 개수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120912
+```python
+def solution(array):
+    return str(array).count('7')
+```
