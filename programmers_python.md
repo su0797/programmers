@@ -1372,3 +1372,11 @@ def solution(array):
 def solution(my_str, n):
     return [my_str[i:i+n] for i in range(0, len(my_str), n)]
 ```
+
+
+## 중복된 숫자 개수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120583
+```python
+def solution(array, n):
+    return array.count(n)
+```
