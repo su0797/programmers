@@ -1403,3 +1403,26 @@ def solution(dots):
     height = max(y1,y2,y3,y4) - min(y1,y2,y3,y4)
     return width*height
 ```
+
+
+## 캐릭터의 좌표
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120861 (이건 다시 풀어보기...)
+```python
+def solution(keyinput, board):
+    answer = [0, 0]
+    
+    x = board[0] // 2
+    y = board[1] // 2
+    
+    for i in keyinput:
+        if i == "up" and answer[1]+1 <= y:
+            answer[1] += 1
+        elif i == "down" and answer[1]-1 >= -y:
+            answer[1] -= 1
+        elif i == "left" and answer[0]-1 >= -x:
+            answer[0] -= 1
+        elif i == "right" and answer[0]+1 <= x:
+            answer[0] += 1
+    
+    return answer
+```
