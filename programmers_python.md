@@ -1465,3 +1465,18 @@ def solution(my_string):
     s = ''.join(i if i.isdigit() else ' ' for i in my_string)
     return sum(int(i) for i in s.split())
 ```
+
+
+## 안전지대 
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120866
+```python
+def solution(board):
+    n = len(board)
+    danger = set()
+    for i, row in enumerate(board):
+        for j, x in enumerate(row):
+            if not x:
+                continue
+            danger.update((i+di, j+dj) for di in [-1,0,1] for dj in [-1, 0, 1])
+    return n*n - sum(0 <= i < n and 0 <= j < n for i, j in danger)
+```
