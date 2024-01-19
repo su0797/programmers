@@ -1491,3 +1491,15 @@ def solution(sides):
     # 이후로는 min(sides) 개의 삼각형을 만들 수 있음
     return 2*min(sides) - 1
 ```
+
+
+## 외계어 사전
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120869
+```python
+def solution(spell, dic):
+    spell = set(spell)
+    for s in dic:
+        if not spell-set(s):
+            return 1
+    return 2
+```
