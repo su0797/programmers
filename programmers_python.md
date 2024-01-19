@@ -1480,3 +1480,14 @@ def solution(board):
             danger.update((i+di, j+dj) for di in [-1,0,1] for dj in [-1, 0, 1])
     return n*n - sum(0 <= i < n and 0 <= j < n for i, j in danger)
 ```
+
+
+## 삼각형의 완성조건 (2)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120868
+```python
+def solution(sides):
+    # n이 1씩 증가하면서 가장 긴변의 길이가 n으로 바뀌는 때를 기준으로
+    # 이전에는 min(sides) - 1개의 삼각형을 만들수 있고
+    # 이후로는 min(sides) 개의 삼각형을 만들 수 있음
+    return 2*min(sides) - 1
+```
