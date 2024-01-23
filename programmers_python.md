@@ -1514,5 +1514,16 @@ def solution(dots):
     answer2 = ((y1-y3)*(x2-x4) == (y2-y4)*(x1-x3))
     answer3 = ((y1-y4)*(x2-x3) == (y2-y3)*(x1-x4))
     return 1 if answer1 or answer2 or answer3 else 0
+```
 
+
+## 겹치는 선분의 길이
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120876
+```python
+def solution(lines):
+    answer = set()
+    for i, a in enumerate(lines):
+        for b in lines[i + 1:]:
+                answer |= set(range(a[0], a[1])) & set(range(b[0], b[1]))
+    return len(answer)
 ```
