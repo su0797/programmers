@@ -1541,3 +1541,9 @@ def solution(a, b):
         b//=5
     return 1 if b==1 else 2
 ```
+
+
+## 특이한 정렬
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120880
+```python
+```
