@@ -1549,3 +1549,12 @@ def solution(a, b):
 def solution(numlist, n):
     return sorted(numlist,key = lambda x: [abs(x-n),-x])
 ```
+
+
+## 등수 매기기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120882
+```python
+def solution(score):
+    a = sorted([sum(i) for i in score], reverse = True)
+    return [a.index(sum(i))+1 for i in score]
+```
