@@ -1558,3 +1558,18 @@ def solution(score):
     a = sorted([sum(i) for i in score], reverse = True)
     return [a.index(sum(i))+1 for i in score]
 ```
+
+
+## 옹알이 (1)
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120956
+```python
+import re
+
+
+def solution(babbling):
+    answer = 0
+    for char in babbling:
+        if re.match(r"^(aya|ye|woo|ma)+$", char):
+            answer += 1
+    return answer
+```
