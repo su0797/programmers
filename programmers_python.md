@@ -1588,3 +1588,18 @@ def solution(id_pw, db):
     else:
         return 'login'
 ```
+
+
+## 치킨 쿠폰
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120884
+```python
+def solution(chicken):
+    coupon = chicken
+    service = 0
+    
+    while coupon >= 10:
+        service += coupon // 10
+        coupon = coupon % 10 + coupon // 10
+
+    return service
+```
