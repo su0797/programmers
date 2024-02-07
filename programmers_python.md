@@ -1603,3 +1603,12 @@ def solution(chicken):
 
     return service
 ```
+
+
+## 이진수 더하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120885
+```python
+from operator import *
+def solution(bin1, bin2):
+    return bin(add(int(bin1,2), int(bin2,2)))[2:]
+```
