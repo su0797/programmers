@@ -1658,3 +1658,11 @@ def solution(A, B):
 def solution(M, N):
     return M*N-1
 ```
+
+
+## 연속된 수의 합
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120923
+```python
+def solution(num, total):
+    return [(total - (num * (num - 1) // 2)) // num + i for i in range(num)]
+```
