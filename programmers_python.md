@@ -1636,3 +1636,17 @@ def solution(i, j, k):
         answer += str(n).count(str(k))
     return answer
 ```
+
+
+## 문자열 밀기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/120921
+```python
+def solution(A, B):
+    answer = 0
+    for i in range(len(A)):
+        if A == B:
+            return answer
+        A = A[-1] + A[:-1]
+        answer += 1
+    return -1
+```
