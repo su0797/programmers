@@ -7,3 +7,9 @@
   def solution(myString):
     return myString.upper()
   ```
+
+
+  ## 정수 찾기
+  - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181840
+  ```python
+  ```
