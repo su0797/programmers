@@ -72,3 +72,13 @@ def solution(n):
             answer += i
     return answer
 ```
+
+
+## 평균 구하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12944
+```python
+def solution(arr):
+    answer = 0
+    answer = sum(arr) / len(arr)
+    return answer
+```
