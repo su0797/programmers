@@ -23,7 +23,7 @@ def solution(num_list, n):
 
 
 ## 배열 비교하기
-- : https://school.programmers.co.kr/learn/courses/30/lessons/181856
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/181856
 ```python
 def solution(arr1, arr2):
   if len(arr1) > len(arr2):
@@ -37,4 +37,18 @@ def solution(arr1, arr2):
           return -1
       else:
           return 0
+```
+
+
+## 자릿수 더하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12931
+```python
+def solution(n):
+    answer = 0
+    for i in str(n):
+        answer += int(i)
+    # [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+    print('Hello Python')
+
+    return answer
 ```
