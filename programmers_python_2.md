@@ -93,3 +93,15 @@ def solution(x, n):
         answer.append(x*i)
     return answer
 ```
+
+
+## 나머지가 1이 되는 수 찾기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/87389
+```python
+def solution(n):
+    answer = []
+    for i in range(1, n+1):
+        if n % i == 1:
+            answer.append(i)
+    return min(answer)
+```
