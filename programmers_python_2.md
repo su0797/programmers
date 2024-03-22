@@ -130,3 +130,14 @@ def solution(s):
     else:
         return False
 ```
+
+
+## 정수 제곱근 판별
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12934
+```python
+def solution(n):
+    n = n ** (0.5)
+    if n % 1 == 0:
+        return (n+1)**2
+    return -1
+```
