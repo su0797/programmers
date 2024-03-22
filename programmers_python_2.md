@@ -105,3 +105,15 @@ def solution(n):
             answer.append(i)
     return min(answer)
 ```
+
+
+## 자연수 뒤집어 배열로 만들기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12932
+```python
+def solution(n):
+    result = []
+    for i in str(n):
+        result.append(int(i))
+    result.reverse()
+    return result
+```
