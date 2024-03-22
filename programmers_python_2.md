@@ -117,3 +117,16 @@ def solution(n):
     result.reverse()
     return result
 ```
+
+
+## 문자열 내 p와 y의 개수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12916
+```python
+def solution(s):
+    s = s.lower()
+    print('Hello Python')
+    if s.count('y') == s.count('p'):
+        return True
+    else:
+        return False
+```
