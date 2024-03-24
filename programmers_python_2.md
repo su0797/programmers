@@ -141,3 +141,13 @@ def solution(n):
         return (n+1)**2
     return -1
 ```
+
+
+## 정수 내림차순으로 배치하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12933
+```python
+def solution(n):
+    ls = list(str(n))
+    ls.sort(reverse = True)
+    return int("".join(ls))
+```
