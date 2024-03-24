@@ -151,3 +151,19 @@ def solution(n):
     ls.sort(reverse = True)
     return int("".join(ls))
 ```
+
+
+## 하샤드 수
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12947
+```python
+def solution(x):
+    answer = True
+    a = 0
+    for i in str(x):
+        a += int(i)
+        if x % a == 0:
+            answer = True
+        else:
+            answer = False
+    return answer
+```
