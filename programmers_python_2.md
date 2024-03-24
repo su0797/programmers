@@ -167,3 +167,14 @@ def solution(x):
             answer = False
     return answer
 ```
+
+
+## 두 정수 사이의 합
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12912
+```python
+def solution(a, b):
+    start = min(a, b)
+    end = max(a,b)
+    answer = sum(range(start, end+1))
+    return answer
+```
