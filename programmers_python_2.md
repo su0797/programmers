@@ -192,3 +192,14 @@ def solution(absolutes, signs):
             result -= num
     return result
 ```
+
+
+## 서울에서 김서방 찾기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12919
+```python
+def solution(seoul):
+    if 'Kim' in seoul:
+        i = seoul.index('Kim')
+        answer = f'김서방은 {i}에 있다'
+    return answer
+```
