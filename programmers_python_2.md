@@ -203,3 +203,9 @@ def solution(seoul):
         answer = f'김서방은 {i}에 있다'
     return answer
 ```
+
+
+## 없는 숫자 더하기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/86051
+```python
+```
