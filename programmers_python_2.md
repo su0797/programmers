@@ -208,4 +208,12 @@ def solution(seoul):
 ## 없는 숫자 더하기
 - 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/86051
 ```python
+def solution(numbers):
+    answer = 0
+    for i in range(0, 10):
+        if i in numbers:
+            continue
+        else:
+            answer += i
+    return answer
 ```
