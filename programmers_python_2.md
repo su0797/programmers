@@ -231,3 +231,13 @@ def solution(arr, divisor):
         answer= [-1]
     return sorted(answer, reverse = False)
 ```
+
+
+## 핸드폰 번호 가리기
+- 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12948
+```python
+def solution(phone_number):
+    a = len(phone_number)
+    blind = phone_number [-4:] 
+    return '*'*(a-4)+blind
+```
